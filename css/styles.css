@@ -14,15 +14,46 @@ div > div {
 	padding: 20px;
 }
 
-.active {
-	background: pink;
-}
-
 img {
 	max-width: 250px;
 	max-height: 250px;
 }
 
+.active {
+	background-color: #0060fa !important;
+}
+
+
 .image {
 	display: inline-block;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	justify-content: center;
+}
+
+.authors {
+	padding-top: 5px;
+	padding-bottom: 10px;
+
+}
+
+.title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+.filter {
+	background-color: black;
+	color: white;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+
+.intro {
+	text-align: center;
 }
